@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Propuesta académica de Gobierno de Datos para el caso ficticio Sustancias Locas.">
+  <meta name="theme-color" content="#102b36">
+  <title>Sustancias Locas | Producción y Gobierno de Datos</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="Sustancias Locas, inicio">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" role="img"><path d="M18 5h12v4l-2 3v8.5l11 17.2A4.5 4.5 0 0 1 35.2 44H12.8a4.5 4.5 0 0 1-3.8-6.3L20 20.5V12l-2-3z" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"/><path d="M14 34h20M18 28h12" stroke="#6bc49a" stroke-width="2.6" stroke-linecap="round"/><circle cx="23" cy="32" r="1.5" fill="#6bc49a"/><circle cx="29" cy="37" r="1.3" fill="#6bc49a"/></svg>
+        </span>
+        <span class="brand-copy"><strong>SUSTANCIAS LOCAS</strong><small>PRODUCCIÓN · DATOS · SEGURIDAD</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="mainNav" aria-label="Navegación principal">
+        <a href="#empresa">Empresa</a>
+        <a href="#produccion">Producción</a>
+        <a href="#gobierno">Gobierno de datos</a>
+        <a class="nav-cta" href="#contacto">Conocer la propuesta <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="hero-grid-pattern" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> PROPUESTA DE TRANSFORMACIÓN DIGITAL</p>
+          <h1>Decisiones más claras.<br><span>Datos más confiables.</span></h1>
+          <p class="hero-lead">Una propuesta de Gobierno de Datos para fortalecer la trazabilidad de las mediciones, el análisis de producción y la toma de decisiones en el entorno industrial.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#gobierno">Explorar el modelo <span aria-hidden="true">→</span></a>
+            <a class="button button-ghost" href="#produccion">Conocer la operación</a>
+          </div>
+          <p class="hero-note"><span class="note-icon">i</span> Caso académico ficticio. La solución se presenta como diseño propuesto.</p>
+        </div>
+        <div class="hero-visual" aria-label="Ilustración conceptual de una instalación industrial conectada">
+          <div class="visual-topline"><span>VISTA CONCEPTUAL DE OPERACIÓN</span><span class="live-tag"><i></i> MODELO PROPUESTO</span></div>
+          <svg class="factory-art" viewBox="0 0 620 410" role="img" aria-label="Ilustración de fábricas, tuberías y señales de datos">
+            <defs>
+              <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#1d4652"/><stop offset="1" stop-color="#102b36"/></linearGradient>
+              <linearGradient id="tank" x1="0" x2="1"><stop stop-color="#547984"/><stop offset=".5" stop-color="#2e5964"/><stop offset="1" stop-color="#214550"/></linearGradient>
+            </defs>
+            <rect x="10" y="10" width="600" height="390" rx="18" fill="url(#sky)" stroke="#43616a"/>
+            <g opacity=".23" stroke="#8fb2b5" stroke-width="1"><path d="M35 65H590M35 105H590M35 145H590M35 185H590M35 225H590M35 265H590M35 305H590M35 345H590"/><path d="M75 30V380M125 30V380M175 30V380M225 30V380M275 30V380M325 30V380M375 30V380M425 30V380M475 30V380M525 30V380M575 30V380"/></g>
+            <path d="M25 334H594" stroke="#79bda2" stroke-width="2" opacity=".8"/>
+            <g stroke="#8eafb3" stroke-width="2">
+              <path d="M52 334V227H103V334M47 227L78 204L108 227" fill="#244b56"/>
+              <path d="M115 334V255H181V334M111 255L148 235L185 255" fill="#2a535e"/>
+              <path d="M195 334V209H270V334M191 209L231 185L274 209" fill="#244b56"/>
+              <path d="M286 334V250H344V334M282 250L315 228L348 250" fill="#2a535e"/>
+              <path d="M357 334V222H420V334M353 222L388 202L424 222" fill="#244b56"/>
+              <path d="M435 334V261H489V334M431 261L462 241L493 261" fill="#2a535e"/>
+            </g>
+            <g fill="url(#tank)" stroke="#9bc2c4" stroke-width="2">
+              <rect x="78" y="150" width="35" height="54" rx="8"/><ellipse cx="95.5" cy="150" rx="17.5" ry="7"/><ellipse cx="95.5" cy="204" rx="17.5" ry="7"/>
+              <rect x="292" y="132" width="43" height="97" rx="11"/><ellipse cx="313.5" cy="132" rx="21.5" ry="8"/><ellipse cx="313.5" cy="229" rx="21.5" ry="8"/>
+              <rect x="450" y="158" width="39" height="83" rx="10"/><ellipse cx="469.5" cy="158" rx="19.5" ry="7"/><ellipse cx="469.5" cy="241" rx="19.5" ry="7"/>
+            </g>
+            <g fill="none" stroke="#6bc49a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M95 142V115H145V173H174"/>
+              <path d="M314 123V92H378V161H406"/>
+              <path d="M470 149V113H528V190H552"/>
+              <path d="M174 173l-8 -5m8 5l-8 5M406 161l-8 -5m8 5l-8 5M552 190l-8 -5m8 5l-8 5"/>
+            </g>
+            <g>
+              <circle cx="145" cy="115" r="7" fill="#102b36" stroke="#6bc49a" stroke-width="3"/>
+              <circle cx="378" cy="92" r="7" fill="#102b36" stroke="#6bc49a" stroke-width="3"/>
+              <circle cx="528" cy="113" r="7" fill="#102b36" stroke="#6bc49a" stroke-width="3"/>
+            </g>
+            <g font-family="Arial,sans-serif" font-size="11" fill="#e2efec">
+              <text x="44" y="365">FÁBRICA A</text><text x="232" y="365">FÁBRICA B</text><text x="423" y="365">FÁBRICA C</text>
+            </g>
+            <g transform="translate(395 34)">
+              <rect width="176" height="48" rx="9" fill="#102b36" stroke="#50747b"/>
+              <circle cx="17" cy="17" r="4" fill="#6bc49a"/>
+              <text x="30" y="20" fill="#d9e9e6" font-family="Arial,sans-serif" font-size="10">CAPTURA Y TRAZABILIDAD</text>
+              <text x="15" y="37" fill="#6bc49a" font-family="Arial,sans-serif" font-size="11" font-weight="bold">ARQUITECTURA PROPUESTA</text>
+            </g>
+          </svg>
+          <div class="visual-caption"><span><b>12</b> líneas contempladas</span><span><b>240</b> sensores en el caso</span><span><b>1</b> visión consolidada</span></div>
+        </div>
+      </div>
+      <div class="hero-bottom container"><span>GOBIERNO DE DATOS</span><span>CALIDAD · TRAZABILIDAD · GESTIÓN DE RIESGOS</span></div>
+    </section>
+
+    <section class="stats-section" aria-label="Datos generales del caso">
+      <div class="container stats-grid">
+        <article class="stat-card"><span class="stat-icon">⌂</span><div><strong>03</strong><span>Fábricas contempladas</span></div></article>
+        <article class="stat-card"><span class="stat-icon">▤</span><div><strong>12</strong><span>Líneas de producción</span></div></article>
+        <article class="stat-card"><span class="stat-icon">⌁</span><div><strong>240</strong><span>Sensores considerados</span></div></article>
+        <article class="stat-card"><span class="stat-icon">10 <small>s</small></span><div><strong>Frecuencia</strong><span>Lectura por sensor</span></div></article>
+      </div>
+      <p class="container micro-note">Cifras tomadas del caso de estudio; describen el alcance planteado, no una verificación de operación real.</p>
+    </section>
+
+    <section class="section section-light" id="empresa">
+      <div class="container two-col">
+        <div>
+          <p class="eyebrow eyebrow-dark">01 / LA ORGANIZACIÓN</p>
+          <h2>Una operación industrial con datos que importan.</h2>
+        </div>
+        <div class="section-copy">
+          <p>“Sustancias Locas” es una empresa ficticia utilizada como caso académico. La propuesta se enfoca en el área de Producción y en el seguimiento de mediciones de concentración de benceno en tres fábricas.</p>
+          <p>El propósito es organizar los datos que se generan durante la operación para que puedan revisarse, conservarse y analizarse con criterios definidos. La confiabilidad de la información es especialmente importante cuando puede respaldar decisiones operativas y de seguridad.</p>
+          <div class="mission-vision">
+            <article><span class="mini-label">MISIÓN PROPUESTA</span><p>Gestionar los procesos productivos con información organizada y trazable, promoviendo decisiones responsables y una cultura de mejora continua.</p></article>
+            <article><span class="mini-label">VISIÓN PROPUESTA</span><p>Avanzar hacia una operación donde los datos sean confiables, estén protegidos y apoyen oportunamente la gestión industrial.</p></article>
+          </div>
+          <p class="small-disclaimer">La misión y la visión son formulaciones académicas sugeridas, no declaraciones oficiales de una empresa real.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-white" id="produccion">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow eyebrow-dark">02 / PRODUCCIÓN</p><h2>Del sensor a la decisión.</h2></div>
+          <p>La arquitectura propuesta busca mantener el vínculo entre cada lectura, su origen y el análisis que se utiliza para apoyar la operación.</p>
+        </div>
+        <div class="process-flow">
+          <article class="process-card"><span class="step-number">01</span><div class="process-icon">⌁</div><h3>Captura local</h3><p>Sensores y microcontroladores registran la concentración, la fecha, la hora y el identificador del dispositivo.</p><span class="tag">Origen del dato</span></article>
+          <span class="flow-arrow" aria-hidden="true">→</span>
+          <article class="process-card"><span class="step-number">02</span><div class="process-icon">▤</div><h3>Almacenamiento</h3><p>PostgreSQL se plantea como base de datos para organizar las lecturas y conservar su relación con fábricas y líneas.</p><span class="tag">PostgreSQL</span></article>
+          <span class="flow-arrow" aria-hidden="true">→</span>
+          <article class="process-card"><span class="step-number">03</span><div class="process-icon">⇄</div><h3>Integración</h3><p>Una API HTTP y servicios de AWS se proponen para intercambiar y consolidar información.</p><span class="tag">API HTTP · AWS</span></article>
+          <span class="flow-arrow" aria-hidden="true">→</span>
+          <article class="process-card"><span class="step-number">04</span><div class="process-icon">▥</div><h3>Análisis</h3><p>Metabase por fábrica y Amazon QuickSight consolidado se plantean para visualizar indicadores y tendencias.</p><span class="tag">Analítica propuesta</span></article>
+        </div>
+        <div class="callout callout-green"><span class="callout-icon">i</span><p><strong>Importante:</strong> este flujo representa el diseño propuesto en el trabajo académico. No significa que la arquitectura esté desplegada ni que los tableros estén conectados a datos reales.</p></div>
+        <div class="sensor-detail">
+          <div class="sensor-detail-copy"><p class="eyebrow eyebrow-dark">CALIDAD Y TRAZABILIDAD</p><h3>Cada lectura debe poder explicarse.</h3><p>Para facilitar su revisión, se propone conservar como mínimo el valor medido, la unidad, la fecha y hora, el identificador del sensor, la fábrica, la línea y el estado de validación.</p></div>
+          <div class="sensor-list">
+            <div><span class="check">✓</span><span>Identificar lecturas faltantes o duplicadas.</span></div>
+            <div><span class="check">✓</span><span>Validar formatos y unidades de medida.</span></div>
+            <div><span class="check">✓</span><span>Registrar cambios, alertas y acciones asociadas.</span></div>
+            <div><span class="check">✓</span><span>Proteger accesos y respaldar la información.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="gobierno">
+      <div class="container">
+        <div class="section-heading section-heading-invert">
+          <div><p class="eyebrow">03 / GOBIERNO DE DATOS</p><h2>Reglas claras para datos confiables.</h2></div>
+          <p>Se propone un modelo que toma DAMA-DMBOK2 como marco principal y lo complementa con referencias para gobernanza, riesgos y seguridad.</p>
+        </div>
+        <div class="governance-grid">
+          <article class="governance-card"><span class="gov-number">01</span><div class="gov-icon">◎</div><h3>Responsabilidades</h3><p>Definir quién administra, valida, consulta y autoriza el uso de los datos.</p><span class="gov-status">Por definir y aprobar</span></article>
+          <article class="governance-card"><span class="gov-number">02</span><div class="gov-icon">◇</div><h3>Calidad del dato</h3><p>Establecer reglas de completitud, consistencia, validez y oportunidad de las lecturas.</p><span class="gov-status">Control propuesto</span></article>
+          <article class="governance-card"><span class="gov-number">03</span><div class="gov-icon">⌑</div><h3>Seguridad y acceso</h3><p>Plantear permisos, respaldos y trazabilidad para reducir accesos o cambios no autorizados.</p><span class="gov-status">Control propuesto</span></article>
+          <article class="governance-card"><span class="gov-number">04</span><div class="gov-icon">↗</div><h3>Indicadores</h3><p>Medir lecturas válidas, registros completos, disponibilidad y atención de alertas.</p><span class="gov-status">Indicadores sugeridos</span></article>
+        </div>
+        <div class="governance-bottom">
+          <div><span class="mini-label">MARCO PRINCIPAL</span><h3>DAMA-DMBOK2</h3><p>Organiza las prácticas para administrar los datos durante su ciclo de vida.</p></div>
+          <div class="framework-chips"><span>ISO/IEC 38505-1 · Gobernanza de datos</span><span>ISO 31000 · Gestión de riesgos</span><span>ISO/IEC 27001 · Seguridad de la información</span></div>
+        </div>
+        <div class="callout callout-outline"><span class="callout-icon">!</span><p><strong>Alerta sobre el benceno:</strong> los rangos de concentración en ppm para clasificar la peligrosidad y activar alarmas deben verificarse en el Anexo A oficial del caso. No se han inventado umbrales ni se han presentado límites externos como si fueran los niveles definidos para la operación.</p></div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="alcance">
+      <div class="container two-col">
+        <div><p class="eyebrow eyebrow-dark">04 / IMPLEMENTACIÓN</p><h2>Avanzar por etapas, validar antes de ampliar.</h2></div>
+        <div class="section-copy">
+          <p>La recomendación académica es comenzar con un piloto controlado en una línea de producción. Antes de extenderlo, se deben comprobar la captura de datos, la sincronización, los permisos, los respaldos, la trazabilidad y la visualización.</p>
+          <div class="timeline">
+            <div class="timeline-item"><span>ETAPA 1</span><div><strong>Definir</strong><p>Acordar responsables, datos críticos, reglas y umbrales oficiales.</p></div></div>
+            <div class="timeline-item"><span>ETAPA 2</span><div><strong>Probar</strong><p>Validar captura, almacenamiento, calidad y trazabilidad en un piloto.</p></div></div>
+            <div class="timeline-item"><span>ETAPA 3</span><div><strong>Evaluar</strong><p>Revisar indicadores, documentar hallazgos y ajustar los controles.</p></div></div>
+            <div class="timeline-item"><span>ETAPA 4</span><div><strong>Ampliar</strong><p>Considerar otras líneas y fábricas una vez aprobados los resultados del piloto.</p></div></div>
+          </div>
+          <p class="small-disclaimer">Las etapas son una propuesta de implementación, no evidencia de actividades ya realizadas.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contacto">
+      <div class="container contact-inner">
+        <div><p class="eyebrow">SUSTANCIAS LOCAS · CASO ACADÉMICO</p><h2>Gobernar los datos es también cuidar las decisiones.</h2><p>Una propuesta para fortalecer la calidad, la trazabilidad y el uso responsable de la información industrial.</p></div>
+        <a class="button button-primary" href="#inicio">Volver al inicio ↑</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <a class="brand brand-footer" href="#inicio"><span class="brand-mark"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M18 5h12v4l-2 3v8.5l11 17.2A4.5 4.5 0 0 1 35.2 44H12.8a4.5 4.5 0 0 1-3.8-6.3L20 20.5V12l-2-3z" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"/><path d="M14 34h20M18 28h12" stroke="#6bc49a" stroke-width="2.6" stroke-linecap="round"/></svg></span><span class="brand-copy"><strong>SUSTANCIAS LOCAS</strong><small>PRODUCCIÓN · DATOS · SEGURIDAD</small></span></a>
+      <p>Propuesta académica de Gobierno de Datos<br>Especialización en Big Data</p>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> Sustancias Locas · Proyecto académico ficticio</span><a href="#gobierno">Gobierno de Datos</a><span>Diseño informativo; no representa una operación industrial real.</span></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
